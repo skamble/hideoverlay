@@ -1,0 +1,12 @@
+<?php
+ 
+/**
+ * Implements hook_admin_paths_alter().
+ */
+function hideoverlay_admin_paths_alter(&$paths) {
+  $paths['user/*/edit'] = FALSE;
+  $paths['user/*/edit/*'] = FALSE;
+  $paths['node/*/edit'] = FALSE;
+  $paths['node/add/*'] = FALSE;
+
+}

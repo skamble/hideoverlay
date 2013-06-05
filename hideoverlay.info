@@ -1,0 +1,3 @@
+name = Hide Overlay Path
+description = Hide all unwanted pages into overlay
+core = 7.x
